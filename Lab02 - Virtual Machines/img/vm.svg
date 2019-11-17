@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   data-type="71"
+   id="FxSymbol0-028"
+   focusable="false"
+   role="presentation"
+   class=""
+   data-islogo="true"
+   viewBox="0 0 18 18">
+  <metadata
+     id="metadata37">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs35" />
+  <g
+     id="g30">
+    <title
+       id="title2" />
+    <defs
+       id="defs14">
+      <linearGradient
+         gradientUnits="userSpaceOnUse"
+         y2="12.21"
+         x2="8.88"
+         y1="16.84"
+         x1="8.88"
+         id="d58a7efe-239c-4678-aeab-4c0c6e658145">
+        <stop
+           id="stop4"
+           stop-color="#ccc"
+           offset=".15" />
+        <stop
+           id="stop6"
+           stop-color="#707070"
+           offset="1" />
+      </linearGradient>
+      <linearGradient
+         gradientUnits="userSpaceOnUse"
+         y2=".21"
+         x2="8.88"
+         y1="12.21"
+         x1="8.88"
+         id="1d03f79a-96a0-4d61-a23a-1ddcc58a51d4">
+        <stop
+           id="stop9"
+           stop-color="#0078d4"
+           offset="0" />
+        <stop
+           id="stop11"
+           stop-color="#5ea0ef"
+           offset=".82" />
+      </linearGradient>
+    </defs>
+    <rect
+       id="rect16"
+       fill="url(#1d03f79a-96a0-4d61-a23a-1ddcc58a51d4)"
+       rx=".6"
+       height="12"
+       width="18"
+       y=".21"
+       x="-.12" />
+    <path
+       id="path18"
+       d="M11.88 4.46v3.49l-3 1.76v-3.5l3-1.75z"
+       fill="#50e6ff" />
+    <path
+       id="path20"
+       d="M11.88 4.46l-3 1.76-3-1.76 3-1.75 3 1.75z"
+       fill="#c3f1ff" />
+    <path
+       id="path22"
+       d="M8.88 6.22v3.49l-3-1.76V4.46l3 1.76z"
+       fill="#9cebff" />
+    <path
+       id="path24"
+       d="M5.88 7.95l3-1.74v3.5l-3-1.76z"
+       fill="#c3f1ff" />
+    <path
+       id="path26"
+       d="M11.88 7.95l-3-1.74v3.5l3-1.76z"
+       fill="#9cebff" />
+    <path
+       id="path28"
+       fill="url(#d58a7efe-239c-4678-aeab-4c0c6e658145)"
+       d="M12.49 15.84c-1.78-.28-1.85-1.56-1.85-3.63H7.11c0 2.07-.06 3.35-1.84 3.63a1 1 0 0 0-.89 1h9a1 1 0 0 0-.89-1z" />
+  </g>
+</svg>
