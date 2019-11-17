@@ -31,3 +31,5 @@ The purpose of the exercise is to demonstrate the deployment of a windows virtua
     - **Select inbound ports**: and check **HTTP**, **HTTPS** and **RDP**
 
 ... work in progress
+
+https://github.com/Girls-in-Tech-Poland/Az900/blob/master/Lab02%20-%20Virtual%20Machines/dsc/ConfigureWebServer.ps1.zip?raw=true
