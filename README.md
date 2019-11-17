@@ -22,4 +22,4 @@ The exam information can be found [here](https://docs.microsoft.com/en-us/learn/
 ### Labs
 
 * [LAB 01 - Azure Portal and Navigation](/Lab01%20-%20Azure%20Portal%20Navigation) 
-* [LAB 01 - Virtual Machines](/Lab01%20-%20Azure%20Portal%20Navigation)
+* [LAB 02 - Virtual Machines](/Lab01%20-%20Azure%20Portal%20Navigation)
