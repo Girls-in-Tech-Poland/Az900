@@ -19,7 +19,7 @@ The purpose of the exercise is to demonstrate the deployment of a windows virtua
     3. Click **Create**
 3. Configure Virtual Machine 
     ![configure-vm-basics](./img/02-create.png)
-    - **Resource group**: Select your resource group
+    - **Resource group**: ensure the `AZ900_user[i]_LAB02_RG` resource group is selected.
     - **Container name**: set to **vmdemo**
     - **Region**: pick a region, preferably North Europe
     - **Image type**: set to **Windows Server 2016 Datacenter**
