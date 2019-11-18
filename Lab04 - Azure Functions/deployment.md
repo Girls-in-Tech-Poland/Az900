@@ -14,7 +14,7 @@
 
 #### Resource Group
 
-- Create a dedicated resource group to host your azure container instance.
+- The resource group dedicated for this lab is: `AZ900_user[i]_LAB04_RG`
 
 #### Create the Azure Functions App
 

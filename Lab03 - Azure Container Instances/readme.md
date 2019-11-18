@@ -26,7 +26,7 @@ The purpose of the exercise is to demonstrate the deployment of a linux containe
 - Sign in to the portal using the provided credentials.
 #### Resource Group
 
-- Create a dedicated resource group to host your azure container instance.
+- The resource group dedicated for this lab is: `AZ900_user[i]_LAB03_RG`
 
 #### Create the Azure Container Instance
 ![create-resource](./img/01-create-resource.png)
