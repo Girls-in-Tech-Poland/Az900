@@ -14,7 +14,7 @@
 
 #### Resource Group
 
-- Create a dedicated resource group to host your azure container instance.
+- The resource group dedicated for this lab is: `AZ900_user[i]_LAB04_RG`
 
 #### Create the Azure Functions App
 
@@ -33,19 +33,19 @@
 
 ![configure-basics](./img/03-configure-functions-basics.png)
 
-- `Resource group`: Ensure the recently created resource group is selected.
-- `Function App name`: Provide a unique name
-- `Publish`: Set to `Code`
-- `Runtime stack`: Set to `.NET Core`
-- `Region`: pick a region.
+- **Resource group**: Ensure the `AZ900_user[i]_LAB04_RG` resource group is selected.
+- **Function App name**: Provide a unique name
+- **Publish**: Set to `Code`
+- **Runtime stack**: Set to `.NET Core`
+- **Region**: pick a region.
 - Click `Next: Hosting`
 
 #### Configure the Azure Function Hosting
 
 ![configure-hosting](./img/04-configure-functions-hosting.png)
-- `Storage account`: Create a new storage account
-- `Operating system`: Ensure `Windows` is selected
-- `Plan type`: Ensure `Consumption` is selected
+- **Storage account**: Create a new storage account
+- **Operating system**: Ensure `Windows` is selected
+- **Plan type**: Ensure `Consumption` is selected
 - Click `Review + create` and then `Create` after validation is successful.
 
 
