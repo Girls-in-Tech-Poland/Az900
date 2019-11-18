@@ -23,6 +23,20 @@ The exam information can be found [here](https://docs.microsoft.com/en-us/learn/
 >
 > This exam can be taken as an optional first step in learning about cloud services and how those concepts are exemplified by Microsoft Azure. It can be taken as a precursor to Microsoft Azure or Microsoft cloud services exams. While it would be a beneficial first step, validating foundational-level knowledge, taking this exam is not a prerequisite before taking any other Azure-based certifications.
 
+### Lab Credentials
+
+Each lab participant will receive credentials which will grant access to the workshop environment.
+
+> **Note**
+>
+> In order to run this workshop effectively, we have generated user credentials for you.
+
+| Username                              | (i)ndex             | Password            |
+| ------------------------------------- | ------------------- | ------------------- |
+| `user[i]@gicworkshop.onmicrosoft.com` | Ask your instructor | Ask your instructor |
+
+You can access the Azure Portal by navigating **[https://portal.azure.com](https://portal.azure.com)** and using your provided credentials
+
 ### Labs
 
 * [LAB 01 - Azure Portal and Navigation](/Lab01%20-%20Azure%20Portal%20Navigation) 
