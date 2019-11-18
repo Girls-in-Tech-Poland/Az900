@@ -7,9 +7,13 @@ This repository contains Az900 (Azure Fundamentals) materials, used during the *
 
 The workshop is intended to be a free, community-led event, and aims to deliver knowledge and practical experience on MS Azure Fundamentals to workshop participants. The contents of the workshop aim to cover most of the exam requirements, but should be accompanied by additional learning materials when studying for the exam.
 
-> The workshop is organized by [Microsoft Azure Usergroup Poland](https://www.facebook.com/groups/azureugpl/) and is led by:
-> - @marczakio
-> - @mmisztal1980
+The workshop is organized by **Girls in Tech - Poland** in association with **Microsoft Azure User Group Poland** and is led by:
+- @marczakio
+- @mmisztal1980
+
+|[Girls in Tech - Poland](https://poland.girlsintech.org/) |[Microsoft Azure User Group Poland](https://www.facebook.com/groups/azureugpl/) |
+|-|-|
+![gitpl](./img/girls-in-tech-poland.png) | ![maugp](./img/maugp.png)
 
 ## The AZ-900 Exam: Microsoft Azure Fundamentals
 
@@ -22,4 +26,6 @@ The exam information can be found [here](https://docs.microsoft.com/en-us/learn/
 ### Labs
 
 * [LAB 01 - Azure Portal and Navigation](/Lab01%20-%20Azure%20Portal%20Navigation) 
-* [LAB 02 - Virtual Machines](/Lab01%20-%20Azure%20Portal%20Navigation)
+* [LAB 02 - Virtual Machines](/Lab02%20-%20Virtual%20Machines)
+* [LAB 03 - Azure Container Instances](/Lab03%20-%20Azure%20Container%20Instances)
+* [LAB 04 - Azure Functions](/Lab04%20-%20Azure%20Functions)

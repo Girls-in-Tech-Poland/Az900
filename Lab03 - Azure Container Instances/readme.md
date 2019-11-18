@@ -21,41 +21,58 @@ The purpose of the exercise is to demonstrate the deployment of a linux containe
 
 > This method aims to deploy an ACI instance using the Azure Portal
 
-- Azure Portal
-    - Sign in to the portal using the provided credentials.
-- Resource Group
-    - Create a dedicated resource group to host your azure container instance.
-- Create the Azure Container Instance
-    ![create-resource](./img/01-create-resource.png)
-    - Select `Create a resource`.
-    - Search the Marketplace for `Container Instances`.
-    ![create](./img/02-create.png)
-    - Click `Create`.
-- Configure ACI Basics
-    ![configure-aci-basics](./img/03-configure-aci-basics.png)
-    - `Resource group`: Ensure the recently created resource group is selected.
-    - `Container name`: set to `aci-hello`.
-    - `Region`: pick a region.
-    - `Image type`: ensure `Public` is set.
-    - `Image name`: set to `mcr.microsoft.com/azuredocs/aci-helloworld:latest`.
-    > If you have **docker** installed, you can test if the image is available with `docker pull mcr.microsoft.com/azuredocs/aci-helloworld:latest`.
-    - `OS type`: ensure `Linux` is selected.
-    - `Size`: use the default value.
-    - Click `Next: Networking`.
-- Configure ACI Networking
-     ![configure-aci-networking](./img/04-configure-aci-networking.png)
-    - `Include public IP address`: Ensure `yes` is selected.
-    - `Ports`: Ensure the TCP port 80 is added to the list.
-    - `DNS name label`: provide a unique value.
-    > **Note:** The ACI container will be available via the browser, under a FQDN similar to: `{dns-name-label}.{region}.azurecontainer.io`.
-    - Click `Review + create` and then `Create` after validation is passed.
-- The ACI Resource deployment
-    ![aci-deployment](./img/05-aci-deployment.png)
-    ![aci-deployment-completed](./img/06-aci-deployment-completed.png)
-    - Wait for the resource deployment to complete successfully.
-    - Click `Go oto resource` when deployment is completed.
-- The ACI Overview
-    ![aci-overview](./img/07-aci-overview.png)
-    - Copy the ACI `FQDN` using the copy button
-    - Paste the copied URL into your preferred browser and access the NodeJS application exposed by the `mcr.microsoft.com/azuredocs/aci-helloworld:latest` container
-    - The web-page exposed by the container should now be accessible
+#### Azure Portal
+
+- Sign in to the portal using the provided credentials.
+#### Resource Group
+
+- Create a dedicated resource group to host your azure container instance.
+
+#### Create the Azure Container Instance
+![create-resource](./img/01-create-resource.png)
+- Select `Create a resource`.
+- Search the Marketplace for `Container Instances`.
+![create](./img/02-create.png)
+- Click `Create`.
+
+#### Configure ACI Basics
+
+![configure-aci-basics](./img/03-configure-aci-basics.png)
+- `Resource group`: Ensure the recently created resource group is selected.
+- `Container name`: set to `aci-hello`.
+- `Region`: pick a region.
+- `Image type`: ensure `Public` is set.
+- `Image name`: set to `mcr.microsoft.com/azuredocs/aci-helloworld:latest`.
+
+> If you have **docker** installed, you can test if the image is available with `docker pull mcr.microsoft.com/azuredocs/aci-helloworld:latest`.
+
+- `OS type`: ensure `Linux` is selected.
+- `Size`: use the default value.
+- Click `Next: Networking`.
+
+#### Configure ACI Networking
+![configure-aci-networking](./img/04-configure-aci-networking.png)
+- `Include public IP address`: Ensure `yes` is selected.
+- `Ports`: Ensure the TCP port 80 is added to the list.
+- `DNS name label`: provide a unique value.
+
+> **Note:** The ACI container will be available via the browser, under a FQDN similar to: `{dns-name-label}.{region}.azurecontainer.io`.
+
+- Click `Review + create` and then `Create` after validation is successful.
+
+#### The ACI Resource deployment
+![aci-deployment](./img/05-aci-deployment.png)
+*ACI deployment underway*
+
+![aci-deployment-completed](./img/06-aci-deployment-completed.png)
+*ACI deployment completed*
+
+- Wait for the resource deployment to complete successfully.
+- Click `Go oto resource` when deployment is completed.
+
+#### The ACI Overview
+
+![aci-overview](./img/07-aci-overview.png)
+- Copy the ACI `FQDN` using the copy button
+- Paste the copied URL into your preferred browser and access the NodeJS application exposed by the `mcr.microsoft.com/azuredocs/aci-helloworld:latest` container
+- The web-page exposed by the container should now be accessible
