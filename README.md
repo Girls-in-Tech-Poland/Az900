@@ -23,3 +23,5 @@ The exam information can be found [here](https://docs.microsoft.com/en-us/learn/
 
 * [LAB 01 - Azure Portal and Navigation](/Lab01%20-%20Azure%20Portal%20Navigation) 
 * [LAB 02 - Virtual Machines](/Lab01%20-%20Azure%20Portal%20Navigation)
+* [LAB 03 - Azure Container Instances](/Lab03%20-%20Azure%Container%20Instances)
+* [LAB 03 - Azure Functions](/Lab04%20-%20Azure%20Functions)
