@@ -43,3 +43,4 @@ You can access the Azure Portal by navigating **[https://portal.azure.com](https
 * [LAB 02 - Virtual Machines](/Lab02%20-%20Virtual%20Machines)
 * [LAB 03 - Azure Container Instances](/Lab03%20-%20Azure%20Container%20Instances)
 * [LAB 04 - Azure Functions](/Lab04%20-%20Azure%20Functions)
+* [LAB 05 - Blob Storage](./Lab05%20-%20Blob%20Storage)
