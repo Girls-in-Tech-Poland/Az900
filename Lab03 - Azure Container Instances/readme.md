@@ -76,3 +76,6 @@ The purpose of the exercise is to demonstrate the deployment of a linux containe
 - Copy the ACI **FQDN** using the copy button
 - Paste the copied URL into your preferred browser and access the NodeJS application exposed by the `girlsintechpl/aci-hello:latest` container
 - The web-page exposed by the container should now be accessible
+
+## Clean up
+Now simply delete resource LAB03 resource group.
