@@ -65,3 +65,6 @@ In this exercise we will test the function using the built-in portal functionali
 > **Note**
 >
 > The above test can be replicated with any HTTP client, such as Postman, SoapUI, curl, `System.Net.HttpClient` etc.
+
+## Clean up
+Now simply delete resource LAB03 resource group.

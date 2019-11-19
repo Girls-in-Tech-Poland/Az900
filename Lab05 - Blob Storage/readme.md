@@ -82,3 +82,6 @@ The purpose of the exercise is to demonstrate the deployment of a storage accoun
 - Open a new tab in your browser
 - Paste the image URL and press ENTER
 - The image should be accessible from a public blob
+
+## Clean up
+Now simply delete resource LAB05 resource group.
